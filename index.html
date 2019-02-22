@@ -1,0 +1,21 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Mines</title>
+    <link href="https://fonts.googleapis.com/css?family=Staatliches" rel="stylesheet" />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div id="game"></div>
+
+    <script src="field.js"></script>
+    <script src="mines.js"></script>
+
+    <script>
+      const target = document.getElementById('game');
+      new Mines(target);
+    </script>
+  </body>
+</html>
